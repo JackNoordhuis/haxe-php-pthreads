@@ -1,0 +1,18 @@
+{
+  "name": "haxe-php-pthreads",
+  "url": "https://github.com/NxtLvLSoftware/haxe-php-pthreads",
+  "license": "MIT",
+  "tags": [
+    "php",
+    "externs",
+    "pthreads"
+  ],
+  "description": "Haxe externs for the php pthreads extension",
+  "version": "0.0.1",
+  "releasenote": "in-dev",
+  "contributors": [
+    "JackNoordhuis"
+  ],
+  "dependencies": {},
+  "classPath": "src"
+}
