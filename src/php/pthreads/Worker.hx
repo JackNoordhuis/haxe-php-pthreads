@@ -18,7 +18,7 @@ import php.interfaces.Closure;
  * @link http://www.php.net/manual/en/class.worker.php
  */
 @:native("Worker")
-extern class Worker {
+extern class Worker extends Thread{
 
     /**
 	 * Executes the optional collector on each of the tasks, removing the task if true is returned
