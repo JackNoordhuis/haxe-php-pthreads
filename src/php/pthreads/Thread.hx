@@ -13,8 +13,6 @@ import php.pthreads.Pthreads;
 @:native("Thread")
 extern class Thread extends Threaded{
 
-    function new():Void;
-
     /**
 	 * Will return the identity of the Thread that created the referenced Thread
 	 *
