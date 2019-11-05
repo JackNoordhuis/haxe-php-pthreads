@@ -19,6 +19,8 @@ import php.interfaces.Traversable;
 @:native("Threaded")
 extern class Threaded implements Traversable implements Countable implements ArrayAccess{
 
+    function new():Void;
+
     /**
 	 * Increments the object's reference count
 	 */
